@@ -1,0 +1,23 @@
+body, h1, p {
+    font-size; 26px;
+    margin: 0;
+    padding: o;
+}
+
+
+
+h1 {
+   color: deeppink;
+    margin: 50px 0 25px 0;
+}
+
+body {
+    color: black;
+
+}
+
+p {
+   font-family: serif;
+    font-size: 25px;
+}
+

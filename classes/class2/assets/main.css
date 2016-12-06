@@ -5,7 +5,7 @@
 
 
 p {
-    font-size: 40px;
+    font-size: 45px;
 }
 .bigDiv {
    height: 100px;
@@ -51,6 +51,8 @@ nav {
     text-align: center;
 }
 main article{
+    font-size: 20%;
+    font-family: dummy text;
     height: 200px;
     width: 20%;
     padding: 30px 10px;
@@ -76,7 +78,7 @@ section{
 aside {
     background-color: red;
     height: 500px;
-    width: 25%;
+    width: 200px%;
     float: right;
 }
 footer{
@@ -86,4 +88,10 @@ footer{
     position: fixed;
     bottom: 0;
     display: none;
+}
+header{
+    font-size: 200px;
+    font-family: fantasy;
+    text-align: center;
+    background-color: aquamarine;
 }

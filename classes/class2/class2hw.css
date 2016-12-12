@@ -1,0 +1,21 @@
+body {
+    font-family: 'Arial' sans-serif;
+    background-color: #F3F3F3;
+}
+#wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 32px;
+}
+header {
+    background-color: lavenderblush;
+    height: 150px;
+    padding: 4px;
+}
+header h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    line-height: 50px;
+    }

@@ -91,6 +91,6 @@ figcaption {
 img:hover {
     /*opacity: .5;*/
 }
-image:hover ~ figcaption{
+/*image:hover ~ figcaption{
     display: block;
-}
+}*?

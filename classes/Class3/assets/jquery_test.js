@@ -16,5 +16,10 @@ $(function(){
 //        });
 
     var myImg = $ ("img");
+    var myCaption = myImg.next();
 
-    myImg.on("mouseenter")
+     myImg.on("mouseenter", function(){
+         myCaption.slideDown();
+
+    });
+});

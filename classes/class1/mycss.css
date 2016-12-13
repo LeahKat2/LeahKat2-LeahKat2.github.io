@@ -4,7 +4,13 @@ body, h1, p {
     padding: o;
 }
 
-
+header{
+    height: 80px;
+    width: 100%;
+    background-color: darkgray;
+    font-size: 60px;
+    text-align: center;
+}
 
 h1 {
    color: deeppink;

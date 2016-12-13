@@ -85,3 +85,12 @@ footer{
     bottom: 0;
 
 }
+figcaption {
+    display: none;
+}
+img:hover {
+    /*opacity: .5;*/
+}
+image:hover ~ figcaption{
+    display: block;
+}

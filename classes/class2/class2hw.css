@@ -70,7 +70,6 @@ ul.main_menu {
     display: inline;
     padding: 0 10px 0 10px;
     font-size: 20px;
-
 }
 .main_menu a{
     text-decoration: none;
@@ -78,10 +77,4 @@ ul.main_menu {
     padding: 8px;
     font-variant: small-caps;
     }
-.main_menu a {
-    color: ghostwhite;
-}
-figcaption {
-    display: none;
-}
 

@@ -8,13 +8,16 @@ figure1{
 figure1{
     float: right;
 }
- #footer {
+ footer {
    position:fixed;
    left:0px;
    bottom:0px;
-   height:30px;
+   height:100px;
    width:100%;
    background-color: darkgrey;
+     font-size: 60px;
+     text-align: center;
+     color: floralwhite;
 }
 header {
     background-color: lavenderblush;

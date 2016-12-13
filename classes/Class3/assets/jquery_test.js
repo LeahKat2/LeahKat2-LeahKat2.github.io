@@ -21,5 +21,9 @@ $(function(){
      myImg.on("mouseenter", function(){
          myCaption.slideDown();
 
-    });
+    }).on("mouseleave", function(){
+         myCaption.slideUp();
+
+
+     });
 });

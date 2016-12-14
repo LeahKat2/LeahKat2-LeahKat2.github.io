@@ -1,4 +1,6 @@
 $(function(){
+    $(window).scroll(function() {
+        $('#footer').toggle($(document).scrollTop() > 100);
 
     var captionhidden = true;
 
@@ -24,6 +26,14 @@ $(function(){
     }).on("mouseleave", function(){
          myCaption.slideUp();
 
-
-     });
+            }
+$(function() {
+    $('#footer').css({opacity: 0, bottom: '-100px'});
+    $(window).scroll(function() {
+        if( $(window).scrollTop + $(window).height() > $(document).height() ) {
+            $('#footer').animate({opacity: 1, bottom: '0px'});
+        }
+    });
 });
+
+

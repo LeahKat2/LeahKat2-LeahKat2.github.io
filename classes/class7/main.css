@@ -1,0 +1,19 @@
+#clickme{
+    width: 30px;
+   height: 30px;
+   background: blue;
+    cursor: pointer;
+}
+
+#menu{
+    position: absolute;
+    width: 100px;
+    right: -100px;
+}
+body{
+    overflow: hidden;
+}
+tr{
+    padding: 10px;
+
+}

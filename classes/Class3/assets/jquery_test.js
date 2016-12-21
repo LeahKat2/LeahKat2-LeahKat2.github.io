@@ -27,13 +27,10 @@ $(function(){
          myCaption.slideUp();
 
             }
-$(function() {
-    $('#footer').css({opacity: 0, bottom: '-100px'});
-    $(window).scroll(function() {
-        if( $(window).scrollTop + $(window).height() > $(document).height() ) {
-            $('#footer').animate({opacity: 1, bottom: '0px'});
-        }
+  $(window).scroll(function() {
+    if($(document).scrollTop() > 100)
+        $('#footer').fadeIn();
+    else
+        $('#footer').fadeOut();
     });
-});
-
 

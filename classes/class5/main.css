@@ -74,13 +74,3 @@ nav li:last-clid a {
 }
 #menuToggle:checked ~ .menu { position: absolute; left: 0;}
 
-footer {
-   color: #00A5CC;
-    width: 100px;
-    height: 50px;
-}
-div {
-    background: blue;
-    height: 50px;
-    width: 30px;
-}

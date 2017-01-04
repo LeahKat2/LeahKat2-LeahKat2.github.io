@@ -1,13 +1,11 @@
 * {
-    padding: 0;
-    margin: 0;
+    padding: 0; margin: 0;
 }
-body{
+body {
     font-family: sans-serif;
 }
-a {
-    text-decoration: none;
-    color: #00A5CC;
+a{
+    text-decoration: none;  color: #00A5CC
 }
 li{
     list-style-type: none;
@@ -17,7 +15,7 @@ header {
     height: 50px;
     margin: auto;
     border-bottom: 1px solid #EEE;
-    background: blue;
+    background: grey;
 }
 #brand {
     float: left;
@@ -25,48 +23,67 @@ header {
     color: #E5DAC0;
     font-size: 25px;
     font-weight: bolder;
+
 }
 nav {
     width: 100%;
     text-align: center;
-
 }
-nav a {
+nav a{
     display: block;
     padding: 15px 0;
     border-bottom: 1px solid #B49755;
-    color: #F0EADC;
 }
-nav a:hover {
-    background: #E5DAC0; color: #FFF;
+
+nav li:hover div{
+    display: block;
 }
-nav li:last-child a {
+
+nav li:last-clid a {
     border-bottom: none;
 }
 
-.menu {
-width: 240px;
-height: 100%;
-position: absolute;
-background: #D9C9A3;
-left: -240px;
-transition: all .3s ease-in-out;
--webkit-transition: all .3s ease-in-out;
--moz-transition: all .3s ease-in-out;
--ms-transition: all .3s ease-in-out;
--o-transition: all .3s ease-in-out;
+}
+nav li a{
+   color: white;
+}
+nav li div {
+    display: none;
+    position: absolute;
+    background-color: hsla(182, 55%, 85%, 1);
+    border: 0px solid hsla(0, 55%, 85%, 1);
+    border-radius: 0 0 10px 10px;
+    top: 35x;
+    left: 0;
+    width: 200px;
+    height: 0;
 
 }
+
+
+.menu {
+    width: 240px;
+    height: 100%
+    position: absolute;
+    background: #D9C9A3;
+    left: -240px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+
+
+
+   }
 .menu-icon {
     padding: 10px 20px;
-    background: #E5DAC0
+    background: #E5DAC0;
     color: #987D3E;
     cursor: pointer;
     float: right;
-    margin-top: 4px;
 }
 #menuToggle {
     display: none;
 }
-#menuToggle:checked ~ .menu { position: absolute; left: 0;
-}
+#menuToggle:checked ~ .menu { position: avsolute; left: 0;}

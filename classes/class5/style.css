@@ -1,75 +1,16 @@
-* {
-    padding: 0;
+*{
     margin: 0;
-}
-body {
-    font-family: sans-serif;
-}
-a{
+    padding: 0;
     text-decoration: none;
-    color: #00A5CC;
+    list-style: none;
 }
-
-header {
-    width: 100%;
-    height: 50px;
-    margin: auto;
-    border-bottom: 1px solid #EEE;
-}
-#brand {
-    float: left;
-    line-height: 50px;
-    color: #E5DAC0;
-    font-size: 25px;
-    font-weight: bolder;
-}
-nav {
-    width: 100%;
-    text-align: center;
-}
-nav a {
-    display: block;
-    padding: 15px 0;
-    border-bottom: 1px solid #B49755;
-}
-nav a: {
-    display: block;
-    padding: 15px 0;
-    border-bottom: 1px solid #B49755;
-    color: #F0EADC;
-}
-nav a:hover {
-    background: #E5DACO;
-    color: #C5AD74;
-}
-nav-li:last child a {
-    border-bottom: none;
-}
-.menu {
- width: 240px;
- height: 100%;
- position: absolute;
- background: #D9C9A3;
- left: -240px;
- transition: all .3s ease-in-out;
- -webkit-transition: all .3s ease-in-out;
- -moz-transition: all .3s ease-in-out;
- -ms-transition: all .3s ease-in-out;
- -o-transition: all .3s ease-in-out;
-}
-.menu-icon {
-    padding: 10px 20px;
-    background: #E5DAC0;
-    color: #987D3E;
+.toggle_menu{
+    position: fixed;
+    padding: 15px 20px 15px 15px;
+    margin-top: 70px;
+    color: white;
     cursor: pointer;
-    float: right;
-    margin-top: 4px;
-    border-radius: 5px;
-}
-#menuToggle {
-    display: none;
-}
-#menuToggle:checked ~ .menu {
-    position: absolute;
-    left: 0;
+    background: #648B79;
+    z-index: 1000000;
+    font-size: 2em;
 }

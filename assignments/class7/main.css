@@ -23,7 +23,23 @@ td{
 table{
     margin: 50px;
 }
-input{
+input, textarea, select{
     display: block;
     margin: 20px;
+}
+input[type="checkbox"],input[type="radio"]{
+    display: inline-block;
+    margin: 10px;
+}
+input:focus {
+    box-shadow: 0 0 5px purple;
+}
+input:invalid{
+color: red;
+}
+input:valid{
+    color: green;
+}
+input:required{
+    border: 3px solid purple;
 }

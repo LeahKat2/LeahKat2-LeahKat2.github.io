@@ -1,8 +1,48 @@
 #clickme{
-    width: 30px;
-    height: 30px;
+    width: 100px;
+    height: 100px;
     background: blue;
     cursor: pointer;
+    margin: 30px;
+    position: relative;
+}
+#clickme::before{
+    content: url(../class3/image.jpeg);
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    background: #fff;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+#clickme::after{
+    content: attr(data-something);
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    background: #fff;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+a{
+    position: relative;
+}
+a::after{
+    position: absolute;
+    content: attr(data-title);
+    background: orange;
+    bottom: 100%;
+    left: 20%;
+    white-space: nowrap;
+    display: none;
+}
+a:hover::after{
+    display: inline-block;
+}
 }
 #menu{
     position: absolute;

@@ -5,9 +5,10 @@
 <link href="main.css" rel="stylesheet">
 </head>
 <body>
-    <div id=  "clickme">click here</div>
+    <div id=  "clickme" data-something="something">click here</div>
     <div id="menu">here is the menu<br>more<br>more</div>
     <div id="main.js"></div>
+<p>here is some text <a href="#" data-title="some help text">some help text</a></p>
 
 <main>
 
@@ -47,16 +48,41 @@
 
 </table>
 
-<form>
+<form id="myform">
 
-    <input type="text" name="myname" placeholder="type your name">
-    <input type="number" name="myage" min=18 max=55 step=3>
-    <input type="email" name="myemail" placeholder="type your email">
-    <input type="password" name="mypass" max length="5" placeholder="password">
+    <fieldset>
+    <legend>Tell me about yourself</legend>
+    <input type="text" name="myname" placeholder="type your name" required>
+    <input type="number" name="myage" min=18 max=55 step=3 disabled>
+    <input type="email" name="myemail" placeholder="type your email" autofocus>
+    </fieldset>
+
+    <div> choose favorite color</div>
+    <input type="checkbox" name="favecolor" value="red" id="color_red"><label for="color_red">Red</label>
+    <input type="checkbox" name="favecolor" value="blue" id="color_blue"><label for="color_blue">Blue</label>
+    <input type="checkbox" name="favecolor" value="green" id="color_green"><label for="color_green">Green</label>
+
+    <div>chose 1 favorite shape</div>
+    <input type="radio" name="faveshape" value="square" id="square"><label for="square">Square</label>
+    <input type="radio" name="faveshape" value="square" id="circle"><label for="circle">Square</label>
+
+
+
+    <input type="password" name="mypass" max length="5">
     <input type="file" name="myfile" multiple>
-    <input type="range" name="myname" min=0 max=100>
+    <input type="range" name="myname" min=0 max=100 value="25">
+    <input type="reset" value="click here to reset">
+
+    <div>whats the weather</div>
+    <select name="weather">
+
+    <option value="cold" selected>cold</option>
+    <option value="warm">warm</option>
+    <option value="freezing">freezing</option>
 
 
+
+    </select>
 
     <textarea rows="4" cols="100" name="message"></textarea>
 

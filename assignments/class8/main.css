@@ -1,0 +1,83 @@
+html{
+    background: transparent url("background.jpeg") no-repeat fixed 0 0 / cover;
+    position: relative;
+
+}
+html::after{
+    position: absolute;
+    content: '';
+    height: 400%;
+    width: 400%;
+    top: 0;
+    left: 0;
+    background: hsla(40, 20%, 90%, .8);
+    z-index: -1;
+    }
+
+
+
+
+div{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    display: inline-block;
+}
+#div1{
+   background-color: hotpink;
+    background: linear-gradient(pink, yellow);
+}
+#div2{
+   background: linear-gradient(pink, yellow, green, blue);
+}
+#div3{
+    background-color: red;
+    background: linear-gradient(pink, pink 20%, yellow 20%, green 80% , blue 80%);
+}
+#div4{
+   background-color: red;
+   background: linear-gradient(45deg, red, 20%, yellow 20%, yellow 80%, orange 80%);
+}
+#div5{
+    position: relative;
+    width: auto;
+    height: auto;
+}
+#div5::after{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, hsla(0, 20%, 20%, .1), hsla(0, 20%, 20%, .8));
+
+}
+#div6{
+    background-color: red;
+    background: radial-gradient(at top right, pink, yellow);
+}
+#div7{
+    width: 600px;
+    background-color: red;
+    background: radial-gradient(at top right, pink, yellow);
+}
+#div8{
+    background-color: red;
+    background: repeating-linear-gradient(45deg, pink, pink 10px, red 10px, red 20px);
+}
+#div9{
+    background-color: red;
+    background: repeating-radial-gradient(pink, pink 10px, red 10px, red 20px);
+}
+#div10{
+background-color:silver;
+background-image:
+radial-gradient(circle at 100% 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+radial-gradient(circle at 0    150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+radial-gradient(circle at 50%  100%, white 10%, silver 11%, silver 23%, white 24%, white 30%, silver 31%, silver 43%, white 44%, white 50%, silver 51%, silver 63%, white 64%, white 71%, transparent 71%, transparent),
+radial-gradient(circle at 100% 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent),
+radial-gradient(circle at 0    50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent);
+}
+

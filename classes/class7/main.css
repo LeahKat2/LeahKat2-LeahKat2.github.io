@@ -1,19 +1,45 @@
-#clickme{
-    width: 30px;
-   height: 30px;
-   background: blue;
-    cursor: pointer;
-}
 
-#menu{
+
+
+
+input{
+    display: block;
+    margin: 20px;
+}
+input[type="checkbox"], input[type="radio"]{
+    display: inline-block;
+    margin: 10px;
+
+}
+input: focus{
+    box-shadow: 0 0 5PX #111;
+}
+input:invalid{
+    color: red;
+}
+input:valid{
+    color: green;
+}
+input: required{
+    border: 3px solid purple;
+}
+#circle{
+    background: hsl(0, 50%, 50%);
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+    position: relative;
+}
+#circle::after{
+    content: attr(data-color);
     position: absolute;
-    width: 100px;
-    right: -100px;
+    height: 50%;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    background: rgba(225, 225, 225, .5);
+    display: none;
 }
-body{
-    overflow: hidden;
-}
-tr{
-    padding: 10px;
-
+#circle:hover:after{
+    display: block;
 }

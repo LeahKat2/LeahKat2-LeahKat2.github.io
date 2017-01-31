@@ -1,0 +1,17 @@
+@font-face{
+    font-family: "20 dbregular";
+    src: url("20db.otf");
+    font-weight: normal;
+    font-style: normal;
+
+}
+p {
+    font-family: "20 dbregular", arial, sans-serif;
+}
+h2{
+    font-family: 'Josefin Slab' serif;
+}
+div{
+    font-weight: 200;
+    font-style: italic;
+}

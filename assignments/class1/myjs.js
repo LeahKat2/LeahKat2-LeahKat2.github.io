@@ -1,4 +1,4 @@
-document.getElementById("myButton").onclick = changeColor;
+document.getElementById("mybutton").onclick = changeColor;
 var currentColor = "black";
 
 function changeColor(){

@@ -1,0 +1,92 @@
+aside{
+    width: 200px;
+    background: green;
+    position: absolute;
+    top: 50px;
+    padding: 0 20px;
+    right: 0;
+
+}
+aside div{
+    height: 100px;
+    background: orange;
+    margin: 10px 0;
+    }
+
+main, aside, footer, header, .menu_simple, aside div{
+    border: 5px solid black;
+}
+main{
+    background: yellow;
+    height: 1000px;
+    padding: 50px 350px;
+    position: relative;
+
+}
+.section1 figure{
+    float: left;
+
+
+}
+.section2 figure{
+    float: right;
+
+}
+
+section p{
+ font-size: 30px;
+}
+
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+.menu_simple{
+   background: blue;
+    position:fixed;
+     width:200px;
+    z-index: 100;
+
+}
+.menu_simple ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.menu_simple ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10.5px 11px;
+    background-color: #005555;
+    display:block;
+}
+.menu_simple ul li a:visited {
+    color: white;
+}
+.menu_simple ul li a:hover, .menu_simple ul li .current {
+    color: white;
+    background-color: #5FD367;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background: pink;
+    color: white;
+  text-align: center;
+}
+
+footer{
+
+    background: green;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+}
+
+

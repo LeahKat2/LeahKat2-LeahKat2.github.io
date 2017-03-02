@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+p {
+    font-size: 30px;
+}
+.bigDiv{
+    height: 100px;
+    background: pink;
+    width: 100px;
+}
+#childDiv{
+    height: 50px;
+    width: 50px;
+    background color: blue; 
+}
+
+.bigDiv div { 
+    height: 50px;
+    width: 50px;
+    background color: blue;
+ }
+nav div{
+    height: 50px;
+    background: blue; 
+    display: inline-block;
+}
+nav{
+    height: 200px;
+    width: 200px;
+    padding: 30px;
+    margin: 30px auto;
+    border:  3px solid black;
+    background: pink;
+    text-align: center;
+}
+main article{
+     height: 200px;
+    width: 200px;
+    padding: 30px 10px;
+    margin: 30px auto;
+    border:  3px solid black;
+    float: left;
+}
+footer{
+    clear: both; 
+}
+.clearfix{
+    clear: both;
+}
+figure{
+    float: left;
+}
+section{
+    width: 800px;
+    background-color: blue;
+    overflow: hidden;
+}
+aside{
+    background-color: red; 
+    height: 25%;
+    width: 25%;
+}

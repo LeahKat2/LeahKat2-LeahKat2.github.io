@@ -1,0 +1,41 @@
+.section1 figure{
+    float: left;
+
+}
+.section2 figure{
+    float: right;
+
+}
+section p{
+    font-size: 20px;
+}
+
+element {
+}
+body.wix-menu-enabled header {
+    opacity: 1;
+}
+header {
+    z-index: 11;
+}
+.home, header {
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    }
+.home, .image-fix img, .row, header, section {
+    width: 100%;
+}
+.home button, .video-wrapper .video-player-bg.hidden, header {
+    opacity: 0;
+}
+body {
+        color: #121416;
+    text-align: left;
+}
+body, html {
+    font-size: 62.5%;
+}
+body, h3, h4 {
+    font-family: HelveticaNeueW01-55Roma,HelveticaNeueW02-55Roma,HelveticaNeueW10-55Roma,sans-serif;
+}

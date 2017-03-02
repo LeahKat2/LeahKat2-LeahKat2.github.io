@@ -1,0 +1,18 @@
+@font-face{
+    font-family: 'modernpics';
+    src: url('')
+}
+nav div{
+    display: inline-block;
+}
+nav{
+    height: 100px;
+}
+.logo a{
+    color: white;
+    background: olive;
+    padding: 15px;
+}
+.hamburger a{
+
+}

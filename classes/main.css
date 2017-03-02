@@ -1,0 +1,29 @@
+.container, .container-fluid{
+    background: pink;
+    min-height: 100px;
+}
+.row div{
+    height: 100px;
+    border: 1px solid black;
+}
+.rowl div{
+    background: yellow;
+}
+.row2 div{
+    background: green;
+}
+.row3 div{
+    background: blue;
+}
+.row .row div{
+    background: purple;
+}
+.row4 div{
+    background: grey;
+}
+.row5 div{
+    background: red;
+}
+.row5 .col-sm-8{
+    margin-left: 50px;
+}

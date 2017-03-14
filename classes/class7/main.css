@@ -1,54 +1,34 @@
+#clickme{
+    width: 30px;
+    height: 30px;
+    background: blue;
+    cursor: pointer;
+}
 
+#menu{
+    position: absolute;
+    width: 100px;
+    right: -100px;
 
+}
+body{
 
-
+}
+tr{
+    padding: 10px;
+    background: #eee;
+}
+td{
+     border: 1px dotted #333;
+}
+table{
+    margin: 50px;
+}
 input{
     display: block;
-    margin: 20px;
-}
-input[type="checkbox"], input[type="radio"]{
-    display: inline-block;
-    margin: 10px;
 
 }
-input: focus{
-    box-shadow: 0 0 5PX #111;
-}
-input:invalid{
-    color: red;
-}
-input:valid{
-    color: green;
-}
-input: required{
-    border: 3px solid purple;
-}
-#circle{
-    background: hsl(0, 50%, 50%);
-    width: 200px;
-    height: 200px;
-    margin: 100px auto;
-    position: relative;
-}
-#circle::after{
-    content: attr(data-color);
-    position: absolute;
-    height: 50%;
-    bottom: 0;
-    width: 100%;
-    left: 0;
-    background: rgba(225, 225, 225, .5);
-    display: none;
-}
-#circle:hover:after{
-    display: block;
-}
-} background: rgba(243,226,199,1);
-background: -moz-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 50%, rgba(182,141,76,1) 51%, rgba(233,212,179,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(243,226,199,1)), color-stop(50%, rgba(193,158,103,1)), color-stop(51%, rgba(182,141,76,1)), color-stop(100%, rgba(233,212,179,1)));
-background: -webkit-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 50%, rgba(182,141,76,1) 51%, rgba(233,212,179,1) 100%);
-background: -o-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 50%, rgba(182,141,76,1) 51%, rgba(233,212,179,1) 100%);
-background: -ms-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 50%, rgba(182,141,76,1) 51%, rgba(233,212,179,1) 100%);
-background: linear-gradient(to right, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 50%, rgba(182,141,76,1) 51%, rgba(233,212,179,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3', GradientType=1 );
+input[type="checkbox"], input[type="radio"{
+    display: inline-block;
+    margin: 10px;
 }

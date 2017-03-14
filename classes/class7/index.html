@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Class 7 work</title>
+<link href="main.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="clickme">click here</div>
+<div id="menu">here is the menu<br>more<br>more</div>
+
+
+    <main>
+        <table>
+            <caption>Table of People</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Place of birth</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Esty</td>
+                    <td>Brooklyn</td>
+                    <td rowspan="2">100</td>
+                </tr>
+                <tr>
+                    <td>Chani</td>
+                    <td>LA</td>
+
+                </tr>
+                <tr>
+                    <td>Raizel</td>
+                    <td colspan="2">CT</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+        <form>
+            <fieldset>
+            <legend>Tell me about yourself</legend>
+            <input type="text" name="myname" placeholder="type your name" required>
+            <input type="number" name="myage" min=18 max=55 step=3>
+            <input type="email" name="myemail">
+            </fieldset>
+            <div>choose favorite color</div>
+            <input type="checkbox" name="favecolor" value="red" id="color_red"><label for="color_red">Red</label>
+            <input type="checkbox" name="favecolor" value="blue" id="color_blue"><label for="color_blue">blue</label>
+            <input type="checkbox" name="favecolor" value="green" id="color_green"><label for="color_green">green</label>
+            <input type="checkbox" name="favecolor" value="orange" id="color_orange"><label for="color_orange">orange</label>
+
+            <div>choose one favorite shape</div>
+            <input type="radio" name="faveshape" value="square" id="square"><label for="square">square</label>
+                        <input type="radio" name="faveshape" value="circle" id="circle"><label for="circle">circle</label>
+            <input type="radio" name="faveshape" value="triangle" id="triangle"><label for="triangle">triangle</label>
+
+
+            <input type="password" name="mypass" maxlength="5">
+            <input type="file" name="myfile" multiple>
+            <input type="range" name="myrange"min=0 max=100>
+            <input type="reset" value="click here to reset">
+            <textarea rows="6" cols="45" name="message"></textarea>
+
+            <input type="submit" value="click me!">
+        </form>
+
+    </main>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

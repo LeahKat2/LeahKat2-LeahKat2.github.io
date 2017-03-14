@@ -1,8 +1,8 @@
+$(function(){
 
-
-$('#saturate').on "input change", ->
-  val = $(this).val()
-  saturate = 'saturate(' + val + '%)'
-  $('#saturateAmount').text(val)
-  $('#circle').css('-webkit-filter', saturate)
+var s = "50";
+var l = "50";
+$("#mycircle").css("background", "hsl(0, "=+s+"%, "+l+"%)"); hsl(4, 40%, 50%)
+  $("#mycircle").data("color","hsl(0, "+s+"%)");
+});
 
